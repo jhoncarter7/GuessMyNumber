@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    position: absolute;
+    top: 7rem;
+    left: 40%;
+
+}
+
+.right {
+    position: absolute;
+    right: 1%;
+    margin: 10px;
+}
+
+.centre {
+
+    position: absolute;
+    text-align: center;
+    left: 41%;
+    top: 9rem;
+    border: 2px solid black;
+    padding: 0rem 4rem;
+    margin: 1rem;
+    font-size: 6rem;
+    background-color: antiquewhite;
+
+}
+
+.btn {
+    position: absolute;
+    top: 4rem;
+    left: 8%;
+    font-size: 1.5rem;
+    padding: 18px;
+}
+main{
+    display: flex;
+    position: absolute;
+   top: 47%;
+   background-color: antiquewhite;
+   width: 100vw;
+   height: 50vh;
+}
+
+.box{
+
+    padding: 15px;
+    border: 3px solid brown;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.submitt{
+    margin-top: 5px;
+    border: 2px solid;
+    padding: 0rem 6.7rem;
+    font-size: 1.4rem;
+    margin-left: 100px;
+}
+
+.indicator{
+    position: absolute;
+    text-align: right;
+    left: 65%;
+    font-size: 1.4rem;
+    margin-top: 22px;
+}
+
+.score{
+    position: absolute;
+    text-align: right;
+    left: 65%;
+    font-size: 1.4rem;
+    margin-top: 110px;
+}
+ .highscore{
+    position: absolute;
+    text-align: right;
+    left: 65%;
+    font-size: 1.4rem;
+    margin-top: 176px;
+ }
