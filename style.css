@@ -40,28 +40,28 @@ header h1 {
 main{
     display: flex;
     position: absolute;
-   top: 47%;
+   top: 19rem;
    background-color: antiquewhite;
    width: 100vw;
    height: 50vh;
 }
 
 .box{
-
+   position: relative;
     padding: 15px;
     border: 3px solid brown;
     border-radius: 6px;
     font-size: 1.5rem;
     margin-top: 35px;
-    margin-left: 100px;
+    left: 41%;
 }
 
 .submitt{
     margin-top: 5px;
     border: 2px solid;
-    padding: 0rem 6.7rem;
-    font-size: 1.4rem;
-    margin-left: 100px;
+   width: 18rem;
+    font-size: 1.8rem;
+    margin-left: 41%;
 }
 
 .indicator{
