@@ -16,7 +16,7 @@ header h1 {
     margin: 10px;
 }
 
-.centre {
+.randomNumber {
 
     position: absolute;
     text-align: center;
@@ -37,34 +37,36 @@ header h1 {
     font-size: 1.5rem;
     padding: 18px;
 }
-main{
+
+main {
     display: flex;
     position: absolute;
-   top: 19rem;
-   background-color: antiquewhite;
-   width: 100vw;
-   height: 50vh;
+    top: 19rem;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 50vh;
 }
 
-.box{
-   position: relative;
+.number {
+    position: relative;
     padding: 15px;
     border: 3px solid brown;
     border-radius: 6px;
     font-size: 1.5rem;
     margin-top: 35px;
     left: 41%;
+    text-align: center;
 }
 
-.submitt{
+.submitt {
     margin-top: 5px;
     border: 2px solid;
-   width: 18rem;
+    width: 18rem;
     font-size: 1.8rem;
     margin-left: 41%;
 }
 
-.indicator{
+.indicator {
     position: absolute;
     text-align: right;
     left: 65%;
@@ -72,17 +74,18 @@ main{
     margin-top: 22px;
 }
 
-.score{
+.innerscore {
     position: absolute;
     text-align: right;
     left: 65%;
     font-size: 1.4rem;
     margin-top: 110px;
 }
- .highscore{
+
+.highscore {
     position: absolute;
     text-align: right;
     left: 65%;
     font-size: 1.4rem;
     margin-top: 176px;
- }
+}
