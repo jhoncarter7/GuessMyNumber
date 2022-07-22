@@ -1,5 +1,6 @@
 
 
+// this generate randome number on ? place
 
 let guessNumber = Math.round(Math.random() * 20);
 
@@ -7,6 +8,7 @@ let guessNumber = Math.round(Math.random() * 20);
 
 // document.querySelector(".indicator").textContent;
 
+// this function take the message to display on guess position 
 const displayMassage = function(message){
     document.querySelector(".indicator").innerHTML = message;
 };
@@ -14,12 +16,15 @@ const displayMassage = function(message){
 let score = 20;
 let highscore = 0;
 
+// on clicking the button check it fetch the below data 
+
 document.querySelector(".submitt").addEventListener("click", function (){
     const currentNumber = Number(document.querySelector(".number").value);
 
     if (!currentNumber) {
         displayMassage("please put a number");
     }
+    // when ur answer is correct 
     else if (currentNumber === guessNumber) {
         displayMassage( "yep you did it !");
         score++;
@@ -33,10 +38,12 @@ document.querySelector(".submitt").addEventListener("click", function (){
             document.querySelector(".highscore span").textContent = highscore;
         }
     }
+    // when ur answer is not correct 
     else if (currentNumber !== guessNumber) {
-
+     
         if (score > 1) {
-
+    //  below code do both work if value is lesser
+    //  than the correct  value it will return 2nd option 
         displayMassage(currentNumber > guessNumber ? "📈 you are to high" : "You are to Low"); 
             score--;
             document.querySelector(".innerscore span").textContent = score;
